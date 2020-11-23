@@ -1,0 +1,19 @@
+pkgbase = python-esptool
+	pkgdesc = A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips
+	pkgver = 3.0
+	pkgrel = 1
+	url = https://pypi.org/project/esptool/
+	arch = any
+	license = GPLv2+
+	makedepends = python-setuptools
+	depends = python-click>=5.0
+	depends = python-pyserial>=3.0
+	depends = python-future>=0.15.2
+	depends = python-cryptography>=2.1.4
+	depends = python-pyparsing>=2.0.3
+	depends = python-pyelftools>=0.22
+	source = https://files.pythonhosted.org/packages/source/e/esptool/esptool-3.0.tar.gz
+	sha256sums = 87953d235fed2c9adb1292b3769df0149686c9afdb1896dd963f730453cbc934
+
+pkgname = python-esptool
+
